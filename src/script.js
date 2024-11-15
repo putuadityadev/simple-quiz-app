@@ -63,6 +63,7 @@ nextButton.addEventListener('click', () => {
                             <span class="text-red-500">❌ Wrong: ${playerWrongAnswer}</span> || <span class="text-green-500">✅ Correct: ${playerCorrectAnswer}</span>
                         </p>
                     </div>
+                    <button onclick="location.reload()" class="next-button px-8 py-2 bg-purple-950 text-white text-xs font-bold rounded-md max-w-fit mt-5 md:px-10">Try Again</button>
                     `
                 } else if (playerCorrectAnswer < 7) {
                     document.querySelector('.container').innerHTML = `
